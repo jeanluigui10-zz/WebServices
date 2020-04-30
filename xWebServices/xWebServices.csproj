@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CallService.aspx" />
-    <Content Include="Distributor\Services.svc" />
+    <Content Include="BancoPreguntas\Services.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,14 +97,15 @@
     <Compile Include="CallService.aspx.designer.cs">
       <DependentUpon>CallService.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Distributor\IServices.cs" />
-    <Compile Include="Distributor\Services.svc.cs">
+    <Compile Include="BancoPreguntas\IServices.cs" />
+    <Compile Include="BancoPreguntas\Services.svc.cs">
       <DependentUpon>Services.svc</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\PublishWebservice.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

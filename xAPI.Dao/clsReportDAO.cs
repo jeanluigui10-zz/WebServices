@@ -4,17 +4,17 @@ using xAPI.Entity.Base;
 
 namespace xAPI.Dao
 {
-    public class clsReportDAO
+    public class clsReportDao
     {
         #region Singleton
-        private static clsReportDAO instance = null;
-        public static clsReportDAO Instance
+        private static clsReportDao instance = null;
+        public static clsReportDao Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new clsReportDAO();
+                    instance = new clsReportDao();
                 }
 
                 return instance;

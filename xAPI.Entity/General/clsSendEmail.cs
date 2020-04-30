@@ -8,7 +8,6 @@ using System.Net.Mail;
 using System.Net.Mime;
 using System.Text;
 using xAPI.Entity.Base;
-using xAPI.Entity.Connection;
 
 namespace xAPI.Entity.General
 {

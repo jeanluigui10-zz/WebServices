@@ -61,7 +61,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsReportDAO.cs" />
+    <Compile Include="BalotarioDao.cs" />
+    <Compile Include="CategoriaDao.cs" />
+    <Compile Include="ModalidadDao.cs" />
+    <Compile Include="BancoAnualDao.cs" />
+    <Compile Include="clsReportDao.cs" />
     <Compile Include="Connection\clsConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

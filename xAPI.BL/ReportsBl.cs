@@ -29,7 +29,7 @@ namespace xAPI.BL
             try
             {
                 if (!String.IsNullOrEmpty(queryString) && !String.IsNullOrEmpty(connection))
-                    distributorTable = clsReportDAO.Instance.Distributor_GetList_ByQuery(ref baseEntity, queryString, connection);
+                    distributorTable = clsReportDao.Instance.Distributor_GetList_ByQuery(ref baseEntity, queryString, connection);
             }
             catch (Exception exception)
             {

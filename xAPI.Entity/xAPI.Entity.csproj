@@ -156,9 +156,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlertSystemCollection.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="Balotario.cs" />
+    <Compile Include="Modalidad.cs" />
+    <Compile Include="BancoAnual.cs" />
     <Compile Include="AlertSystemLanguage.cs" />
     <Compile Include="Base\BaseEntity.cs" />
-    <Compile Include="Connection\clsConnection.cs" />
     <Compile Include="DistributorNotesTopic.cs" />
     <Compile Include="General\clsCsv.cs" />
     <Compile Include="General\clsEnum.cs" />
